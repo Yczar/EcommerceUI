@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:background="@drawable/watch_bg"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:padding="30dp"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/watches"
+                android:layout_margin="20dp"
+                android:layout_weight="1"/>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_weight="1"
+                android:orientation="horizontal"
+                android:gravity="center"
+                android:layout_marginTop="10dp"
+                android:layout_height="wrap_content">
+<View
+    android:layout_width="20dp"
+    android:layout_height="2dp"
+    android:layout_margin="20dp"
+    android:background="@drawable/viewbg"/>
+                <View
+    android:layout_width="20dp"
+    android:layout_height="2dp"
+    android:background="@drawable/viewbgc"/>
+                <View
+    android:layout_width="20dp"
+                    android:layout_margin="20dp"
+    android:layout_height="2dp"
+    android:background="@drawable/viewbgc"/>
+
+            </LinearLayout>
+        </LinearLayout>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:padding="20dp"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:layout_width="30dp"
+                android:layout_alignParentStart="true"
+                android:src="@drawable/ic_chevron"
+                android:layout_height="30dp">
+
+            </ImageView>
+            <ImageView
+                android:layout_alignParentRight="true"
+                android:layout_width="30dp"
+                android:src="@drawable/ic_favorite"
+                android:layout_height="30dp">
+
+            </ImageView>
+
+        </RelativeLayout>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_weight="1"
+        android:layout_height="match_parent">
+    <LinearLayout
+        android:orientation="vertical"
+        android:padding="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:fontFamily="@font/open_sans"
+                android:paddingBottom="10dp"
+                android:text="Tudor Black Bay"
+                android:textColor="@android:color/black"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+             <TextView
+            android:layout_width="match_parent"
+            android:text="$658.00"
+                 android:gravity="right"
+                 android:textStyle="bold"
+                 android:textSize="18sp"
+                 android:layout_weight="1.5"
+                 android:textColor="#be0100"
+            android:layout_height="wrap_content"/>
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/open_sans"
+            android:text="Reference: m79540-0006"
+            android:textColor="#9E000000"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:fontFamily="@font/open_sans"
+            android:gravity="left"
+            android:text="Introduced at Baselworld 2017, their elegant, sporty watch captures the essence of black bay in a more formak version." />
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_weight="1"
+    android:padding="10dp"
+    android:orientation="horizontal"
+    android:layout_height="match_parent">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_weight="1"
+    android:layout_margin="5dp"
+    android:orientation="vertical">
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_weight="1"
+        android:layout_margin="10dp"
+        android:src="@drawable/security"
+        android:layout_height="match_parent">
+
+    </ImageView>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/open_sans"
+        android:gravity="center"
+        android:text="5 year guarantee"
+        android:textColor="#9C000000"
+        android:textStyle="bold" />
+</LinearLayout>
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_weight="1"
+    android:layout_margin="5dp"
+    android:orientation="vertical">
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_weight="1"
+        android:src="@drawable/emotion"
+        android:layout_margin="10dp"
+        android:layout_height="match_parent">
+
+    </ImageView>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/open_sans"
+        android:gravity="center"
+        android:text="Automatic"
+        android:textColor="#9C000000"
+        android:textStyle="bold" />
+</LinearLayout>
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_weight="1"
+    android:layout_margin="5dp"
+    android:orientation="vertical">
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_weight="1"
+        android:layout_margin="10dp"
+        android:src="@drawable/watch"
+        android:layout_height="match_parent">
+
+    </ImageView>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/open_sans"
+        android:gravity="center"
+        android:text="41 mm steel case"
+        android:textColor="#9C000000"
+        android:textStyle="bold" />
+</LinearLayout>
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_weight="1"
+    android:layout_margin="5dp"
+    android:orientation="vertical">
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_weight="1"
+        android:src="@drawable/bubble"
+        android:layout_margin="10dp"
+        android:layout_height="0dp">
+
+    </ImageView>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/open_sans"
+        android:gravity="center"
+        android:text="Water proof"
+        android:textColor="#9C000000"
+        android:textStyle="bold" />
+</LinearLayout>
+
+</LinearLayout>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/btnbg"
+            android:elevation="10dp"
+            android:fontFamily="@font/open_sans"
+            android:onClick="next"
+            android:text="Add to bag"
+            android:textColor="@android:color/white"
+            android:textSize="14sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    </RelativeLayout>
+</LinearLayout>
